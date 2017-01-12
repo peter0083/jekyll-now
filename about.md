@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 Experienced Pharmacist with a demonstrated history of working in various primary care settings. Skilled in Methadone Maintenance Therapy, Analytics, Clinical Pharmacology and Immunization. Strong data science professional with a Master of Data Science from The University of British Columbia. 
