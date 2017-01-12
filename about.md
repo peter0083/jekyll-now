@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Experienced Pharmacist with a demonstrated history of working in various primary care settings. Skilled in Methadone Maintenance Therapy, Analytics, Clinical Pharmacology and Immunization. Strong data science professional with a Master of Data Science from The University of British Columbia. 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Other interests: I enjoy playing Japanese Taiko, Taiwanese Drum and percussion instruments with GBM Taiko and [Ten Drum Canada](https://www.facebook.com/TenDrumCanada/).
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[peter.tingyao@alumni.ubc.ca](mailto:peter.tingyao@alumni.ubc.ca)
