@@ -4,8 +4,8 @@ bio:                'Pharmacist x Data Scientist'
 description:        "Explore the Healthcare World with Data"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/UBC_20160906_6310.jpg'
-background:         'assets/img/10852906_628482390597537_1353900370_n.jpg'
+logo:               'assets/img/logo.png'
+background:         'assets/img/IMG_7924.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://peter0083.github.io/
