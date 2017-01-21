@@ -65,11 +65,14 @@ Findings from Exploratory Data Analysis
 A.  Rating-type questions where students were to rate on a scale of 1 to 5 and distribution-matching questions with answers in drop-down menus were all well participated without any extraneous answers. Estimation-type questions where students were to enter a response was not well received. A mixture of text and numeric answers was collected. Text answers were replaced with "NA" to ensure unity of data type for analysis.
 
 B.  The question that asked "making it easy to see the distribution of the data" gives a clustered response among 3, 4, and 5 with most response in 5 for survey A. The response from survey B are more evenly distributed.
+
 ![alt text](../assets/img/r-viz/plot2-1.png)
+
 
 Using Wilcoxon test, p-value is 0.000174, less than 0.05. The difference in response between survey A and B for question 2 is statistically significant. In other words, students feel that there is a difference in determining distribution when inspecting two visualizations: scattered plot vs histograms.
 
 C.  The question that asked "making it easy to identify outliers" gives a clustered response among 2, 3, 4, and 5 in survey 5. The response from survey A are more evenly distributed.
+
 ![alt text](../assets/img/r-viz/plot3-1.png)
 
 Using Wilcoxon test, p-value is 0.00852, less than 0.05. The difference in response between survey A and B for question 2 is statistically significant. In other words, students feel that there is a difference in estimating the outlier between two visualizations, scattered plot vs histograms.
