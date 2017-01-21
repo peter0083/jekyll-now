@@ -1,26 +1,30 @@
-# The Plain v2.2
+# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
+  
+## `Sorry guys but there will be no update until I buy a new laptop.`
+    
+######(If you like this theme or using it, please give a :star: for motivation.)
 
-**The Plain** - just another white clean minimalist Jekyll theme that focuses on writing matters. Suitable for personal blog use. Made with [Sass](https://github.com/sass/sass) which automates the compression of the compiled CSS code, ~~and cool **Jekyll layout** by [Anatol Broder](http://jch.penibelst.de/) for compressing the HTML code on-the-fly~~. The typeface used is [Karla](https://fonts.google.com/specimen/Karla?selection.family=Karla) from Google Fonts.
+**[Moon](http://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
 
-[**Live Demo**](http://heiswayi.github.io/the-plain/)
+## Features
+* Minimal, you can focus on your content
+* Responsive
+* Disqus integration
+* Syntax highlighting
+* Optional post image
+* Social icons
+* Page for sharing projects
+* Optional background image
+* Simple navigation menu
+* MathJax support
 
-### Screenshot
+## Preview
 
-![Screenshot](http://i.imgur.com/btWdSS0.png)
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
 
-### Credits
+See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
-This theme is based on Leonard Lamprecht's original [Jekyll theme](https://github.com/leo/leo.github.io).
+## Getting Started
 
-### Changelogs
-
-```
-2016/12/22 v2.2
-===============
-- Fixed footnote issue. Use classic way of displaying the footnotes at the bottom of the content.
-- Removed footnote scripts.
-```
-
-### License
-
-[MIT](LICENSE.md)
+To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.

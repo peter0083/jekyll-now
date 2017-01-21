@@ -1,54 +1,76 @@
-# Site Info
-title:              "Peter Lin"
-description:        "Pharmacist x Data Scientist"
-google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+# Site
+title:              Peter
+bio:                'Pharmacist x Data Scientist'
+description:        "Explore the Healthcare World with Data"
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/UBC_20160906_6310.jpg'
+background:         'assets/img/10852906_628482390597537_1353900370_n.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                https://peter0083.github.io/
 
-# Author Info
-author_name:        "Peter Lin"
-author_email:       peter.tingyao@alumni.ubc.ca
-author_gravatar:    9fd3f1759470f842ea20f31798c61f6a # Gravatar md5 hash
-twitter_username:   PTingyao
-github_username:    peter0083 # GitHub username
-
-# Site Settings
-baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /notes/:title # Post permalink
-timezone:           America/Vancouver # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to false to disable
-
-# Site Build
-highlighter:        rouge
-#markdown:           redcarpet
-#redcarpet:
-#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
+# Jekyll
+permalink:          /:title/
 markdown:           kramdown
+highlighter:        rouge
 kramdown:
-    input:          GFM
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
 sass:
-    style:          :compressed
+  sass_dir:         _sass
+  style:            compressed
 
-# Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+# Comments
+disqus_shortname:   taylantatli
+
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+twitter:            username
+facebook:           username
+github-url:         username
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+instagram:          username
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
 gems:
+  - jekyll-mentions
+  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-gist
 
+jekyll-mentions:
+    base_url: https://github.com
 
-
-defaults:
-  -
-    scope:
-      path:         ""
-    values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
-    values:
-      layout:       "post"
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
