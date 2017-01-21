@@ -66,14 +66,14 @@ A.  Rating-type questions where students were to rate on a scale of 1 to 5 and d
 
 B.  The question that asked "making it easy to see the distribution of the data" gives a clustered response among 3, 4, and 5 with most response in 5 for survey A. The response from survey B are more evenly distributed.
 
-![alt text](../assets/img/r-viz/plot2-1.png)
+<img src="../assets/img/r-viz/plot2-1.png" alt="plot2-1">
 
 
 Using Wilcoxon test, p-value is 0.000174, less than 0.05. The difference in response between survey A and B for question 2 is statistically significant. In other words, students feel that there is a difference in determining distribution when inspecting two visualizations: scattered plot vs histograms.
 
 C.  The question that asked "making it easy to identify outliers" gives a clustered response among 2, 3, 4, and 5 in survey 5. The response from survey A are more evenly distributed.
 
-![alt text](../assets/img/r-viz/plot3-1.png)
+<img src="../assets/img/r-viz/plot3-1.png" alt="plot3-1">
 
 Using Wilcoxon test, p-value is 0.00852, less than 0.05. The difference in response between survey A and B for question 2 is statistically significant. In other words, students feel that there is a difference in estimating the outlier between two visualizations, scattered plot vs histograms.
 
@@ -84,7 +84,7 @@ Conclusion and Discussion
 
 1.  Based on the analysis of seven key questions, there are two questions that showed a difference between scattered plot vs histograms in detecting distribution and outliers. It is not strong enough to conclude that the students truly feel there is a difference between the two plots.
 
-2.  The inability to show a major difference from the two surveys may be due to the lack of an answer key for reference. If this survey were conducted as a quiz and the result were evaluated against an answer key, the difference might have been more prominent. The fact that surveys are not graded may contribute to poor and unthoughtful answers that blurred the true difference. Also, maybe the visualization graphs given did not show a major distinction that make the differece obvious.
+2.  The inability to show a major difference from the two surveys may be due to the lack of an answer key for reference. If this survey were conducted as a quiz and the result were evaluated against an answer key, the difference might have been more prominent. The fact that surveys are not graded may contribute to poor and unthoughtful answers that blurred the true difference. Also, maybe the visualization graphs given did not show a major distinction that make the difference obvious.
 
 3.  Multiple-choice questions are better evaluated and show difference compared to open-ended questions where students can input either integers or numeric answers. For future surveys, multiple-choice questions are recommended to improve overall data quality and standardization.
 
