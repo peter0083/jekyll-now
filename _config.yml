@@ -4,7 +4,7 @@ bio:                'Pharmacist x Data Scientist'
 description:        "Explore the Healthcare World with Data"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/UBC_20160906_6310.jpg'
+logo:               'https://s.gravatar.com/avatar/9fd3f1759470f842ea20f31798c61f6a?s=80'
 background:         'assets/img/10852906_628482390597537_1353900370_n.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
