@@ -7,6 +7,8 @@ project: true
 tag:
 - R
 - viz
+- ggplot2
+- RStudio
 comments: false
 ---
 
