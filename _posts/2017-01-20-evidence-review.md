@@ -14,11 +14,13 @@ tag:
 comments: false
 ---
 
+<img src="http://www.evidencesoup.com/.a/6a00d83452129c69e2017c31d81424970b-pi">
+
 ### Introduction
 
 Patients and friends often approach me with articles they read online about effectiveness or novel indications of drug X or herb Y then ask me about my opinion on these findings. I  have to take a step back and give them a quick tutorial on "not all data are created equal". I feel it is important for empower patients and the public a sense of what different levels of evidence means so they will not be preys of false advertisement. 
 
-Recently, I witnessed a cyber-bully incidence that a group of healthcare professionals posted a blog entry to debunk false claims of plum extract. These highly trained professionals were bombarded with harsh comments by plum-extract fans and sales. Fans and sales used primarily google search to find plum-extract research articles without realizing that the level of evidence was the articles they cited was low. **sad**
+Recently, I witnessed a cyber-bully incidence that a group of healthcare professionals posted a blog entry to debunk false claims of plum extract. These highly trained professionals were bombarded with harsh comments by plum-extract fans and sales. Fans and sales used primarily Google search to find plum-extract research articles without realizing that the level of evidence was the articles they cited was low. **sad**
 
 In UBC MDS program, we have yet to cover data modelling and inference for randomized controlled trials. This blog post will serve as a high-level preview for my fellow classmates and prospective students.
 
@@ -52,11 +54,14 @@ Because case-control studies, being observational in nature, are limited by the 
 
 #### level 2: Systematic reviews of cohort studies and individual cohort studies
 
-Cohort studies are a type of longitudinal study (think longitudinal data from Dr. Wu's DSCI 562!). They are better than case-control studies but are also suspectible to confouding factors and bias. 
+Cohort studies are a type of longitudinal study (think longitudinal data from Dr. Wu's DSCI 562!). They are better than case-control studies but are also susceptible to confounding factors and bias. 
 
-#### best evidence! level 1: Systematic reviews of randomized controll trials (RCTs) and individual randomized controlled trials (RCTs)
+#### Best evidence! level 1: Systematic reviews of randomized controll trials (RCTs) and individual randomized controlled trials (RCTs)
 
-Randomized controlled trials (RCTs) are the best type of data to make inference about a therapy. (5) During randomization, you are minimizing bias and confounding factors of your patient populations. (5) However, RCTs are not always possible in researches. For example, it is simply unethical to gather enough patients for a rare disease to run randomized controlled trials. 
+Randomized controlled trials (RCTs) are the best type of data to make inference about a therapy. (5) During randomization, you are minimizing bias and confounding factors of your patient populations. (5) However, RCTs are not always possible in researches. For example, it is simply unethical to gather enough patients for a rare disease to run randomized controlled trials. Here is a diagram explaining the process.
+
+<img src="http://howmed.net/wp-content/uploads/2013/07/randomized-controlled-trials.jpg">
+
 
 ### Take-home messages
 
