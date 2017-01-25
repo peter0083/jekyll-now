@@ -9,7 +9,7 @@ tag:
 - viz
 - ggplot2
 - RStudio
-comments: false
+comments: true
 ---
 
 

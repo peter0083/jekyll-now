@@ -11,7 +11,7 @@ tag:
 - stat
 - medicine
 - EBM
-comments: false
+comments: true
 ---
 
 <img src="http://www.evidencesoup.com/.a/6a00d83452129c69e2017c31d81424970b-pi">
@@ -20,13 +20,13 @@ comments: false
 
 Patients and friends often approach me with articles they read online about effectiveness or novel indications of drug X or herb Y then ask me about my opinion on these findings. I  have to take a step back and give them a quick tutorial on "not all data are created equal". I feel it is important for empower patients and the public a sense of what different levels of evidence means so they will not be preys of false advertisement. 
 
-Recently, I witnessed a cyber-bully incidence that a group of healthcare professionals posted a blog entry to debunk false claims of plum extract. These highly trained professionals were bombarded with harsh comments by plum-extract fans and sales. Fans and sales used primarily Google search to find plum-extract research articles without realizing that the level of evidence was the articles they cited was low. **sad**
+Recently, I witnessed a cyber-bully incidence that a group of healthcare professionals posted a blog entry to debunk false claims of plum extract. These highly trained professionals were bombarded with harsh comments by plum-extract fans and sales. Fans and sales used primarily Google search to find plum-extract research articles without realizing that the level of evidence was the articles they cited was low. **sad face**
 
 In UBC MDS program, we have yet to cover data modelling and inference for randomized controlled trials. This blog post will serve as a high-level preview for my fellow classmates and prospective students.
 
 ### How are evidence/data ranked in the medical world?
 
-Here is a music parody made by a UBC pharmacy professor, *Dr. James McCormack*, explaining evidence in an artistic way.
+Here is a music parody made by a UBC pharmacy professor, *Dr. James McCormack*, that summed up what I will discuss in an artistic way.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/QUW0Q8tXVUc/0.jpg)](https://www.youtube.com/watch?v=QUW0Q8tXVUc&feature=youtu.be "Viva La Evidence")
 
