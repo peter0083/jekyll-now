@@ -2,7 +2,7 @@
 layout: post
 title:  "A R Visualization Exercise - Shiny App Edition"
 date:   2017-04-15
-excerpt: "practice makes perfect"
+excerpt: "My first attempt using R Shiny"
 project: true
 tag:
 - R
