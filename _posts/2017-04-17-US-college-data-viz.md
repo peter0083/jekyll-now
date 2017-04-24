@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "A R Visualization Exercise - Shiny App Edition3"
 date:   2017-04-16
