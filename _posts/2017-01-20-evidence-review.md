@@ -14,7 +14,7 @@ tag:
 comments: true
 ---
 
-<img src="http://www.evidencesoup.com/.a/6a00d83452129c69e2017c31d81424970b-pi">
+[//]: <> (<img src="http://www.evidencesoup.com/.a/6a00d83452129c69e2017c31d81424970b-pi">)
 
 ### Introduction
 
