@@ -4,7 +4,7 @@ bio:                'Pharmacist x Data Scientist'
 description:        "Explore the World with Data"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/profile.png'
+logo:               'assets/img/profile2.png'
 background:         'assets/img/IMG_7924.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
