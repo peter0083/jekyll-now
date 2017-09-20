@@ -3,7 +3,6 @@ layout: post
 title:  "k-Nearest Neighbours Algorithm Explained in Plain English (No Code!)"
 date:   2017-09-16
 excerpt: "k Nearest Neighbour for Everybody"
-project: false
 tag:
 - machine learning
 comments: true
