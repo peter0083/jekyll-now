@@ -15,6 +15,8 @@ comments: true
 Peter Lin
 September 29, 2017
 
+![alt text](report_files/nedstark.jpg "iPhone X is coming")
+
 Dear ~~bossy~~ wife,
 
 Remember the phone you bought for my 2014 birthday? Unfortunately, the phone, Google Nexus 5 from December 2014, broke down at 2 pm Friday, September 15th, 2017. The Nexus 5 screen went black. I tried to repair the phone, but I realized that it was a motherboard problem. It would cost us an additional $88CDN to order a replacement motherboard and I would have to install it myself. (1, 2) It is time-consuming and not cost-effective since I cannot guarantee a successful repair.
