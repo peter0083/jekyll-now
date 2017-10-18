@@ -10,7 +10,7 @@ tag:
 comments: true
 ---
 
-![iPhone X is coming][/report-files/nedstark.jpg "Ned Stark"]
+<img src = "../assets/img/report-files/nedstark.jpg" alt="iPhone is coming">
 
 
 ================
