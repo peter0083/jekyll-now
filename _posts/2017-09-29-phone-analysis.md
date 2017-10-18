@@ -119,7 +119,7 @@ ggplot(upgrade_frequency_data_transposed, aes(x=frequency,
 
 
 
-<img src = "../assets/img/report-files//figure-markdown_github-ascii_identifiers/upgrade_frequency_graph-1.PNG" alt="upgrade frequeny graph">
+<img src = "../assets/img/report-files//figure-markdown_github-ascii_identifiers/upgrade_frequency_graph-1.png" alt="upgrade frequeny graph">
 
 
 **Analysis: Although our experience tells us that iPhones may last a bit longer, iPhone users tend to upgrade more often than Android users. Many users report the slowing down of their old iphones after updating iOS prior to new model launch date. (6) The way we use our phones is closer to the group of using the phone until it dies. We can interpret our experience and upgrade frequency in two ways.**
