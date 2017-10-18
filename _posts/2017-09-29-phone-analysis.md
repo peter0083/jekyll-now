@@ -10,7 +10,7 @@ tag:
 comments: true
 ---
 
-[Ned Stark]: https://github.com/peter0083/peter0083.github.io/blob/master/report-files/nedstark.JPG "Ned Stark"
+[Ned Stark]: https://github.com/peter0083/peter0083.github.io/blob/master/report-files/nedstark.jpg "Ned Stark"
 ![iPhone X is coming][Ned Stark]
 
 
