@@ -62,88 +62,24 @@ I did some research on iPhone and Android user experience. Since iPhone X is not
 
 The Consumer Technology Association publication states that the average lifespan of smartphones is approximately 4.7 years. (5) How does this information compare to our own experience?
 
-<table>
-<colgroup>
-<col width="18%" />
-<col width="22%" />
-<col width="59%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th align="center">lifespan (years)</th>
-<th>status</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>benchmark</td>
-<td align="center">4.7</td>
-<td>--</td>
-</tr>
-<tr class="even">
-<td>Your iPhone 4</td>
-<td align="center">7</td>
-<td>still functional now but very slow with iOS 8</td>
-</tr>
-<tr class="odd">
-<td>My Nexus 5</td>
-<td align="center">2.75</td>
-<td>unfunctional: black screen</td>
-</tr>
-<tr class="even">
-<td>Your HTC One M7</td>
-<td align="center">3.83</td>
-<td>still functional now but back camera produces purple-tinted pictures</td>
-</tr>
-<tr class="odd">
-<td>Dad's iPhone 3GS</td>
-<td align="center">3.75</td>
-<td>unfunctional: battery expanded and popped the backplate off</td>
-</tr>
-</tbody>
-</table>
+|                 | lifespan (years) | status                                                  |
+|-----------------|:-------------------:|---------------------------------------------------------|
+| benchmark       | 4.7               | --                                                      |
+| Your iPhone 4   | 7                 | still functional now but very slow with iOS 8 |
+| My Nexus 5      | 2.75              | unfunctional: black screen                              |
+| Your HTC One M7 | 3.83              | still functional now but back camera produces purple-tinted pictures  |                             |
+| Dad's iPhone 3GS | 3.75              | unfunctional: battery expanded and popped the backplate off   |                             |
 
 Even though the average lifespan of smartphones is 4.7 years, we have had varied lifespan with each model we owned.
 
 Furthermore, some people actually upgrade their phones even before the phones become nonfunctional. How often do iPhone or Android users upgrade their phones? The findings are summarized in the graph below: (5)
 
-<table style="width:100%;">
-<colgroup>
-<col width="70%" />
-<col width="9%" />
-<col width="10%" />
-<col width="8%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th align="right">iPhone</th>
-<th align="right">Android</th>
-<th align="right">Other</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>When a new model is released, usually about every year</td>
-<td align="right">2%</td>
-<td align="right">2%</td>
-<td align="right">3%</td>
-</tr>
-<tr class="even">
-<td>As soon as your cellphone providers allows it, usually every two years</td>
-<td align="right">51%</td>
-<td align="right">40%</td>
-<td align="right">21%</td>
-</tr>
-<tr class="odd">
-<td>Only when it stops working or becomes totally obsolete</td>
-<td align="right">47%</td>
-<td align="right">58%</td>
-<td align="right">76%</td>
-</tr>
-</tbody>
-</table>
+|                                                                        | iPhone | Android | Other |
+|------------------------------------------------------------------------|--------:|---------:|-------:|
+| When a new model is released, usually about every year                 | 2%     | 2%      | 3%    |
+| As soon as your cellphone providers allows it, usually every two years | 51%    | 40%     | 21%   |
+| Only when it stops working or becomes totally obsolete                 | 47%    | 58%     | 76%   |
+
 
 ``` r
 library(ggplot2) # import ggplot2 function for graphing
@@ -201,54 +137,13 @@ Since my data sources cannot help us make an informed decision about the purchas
 
 *All prices include taxes and shipping*
 
-<table style="width:100%;">
-<colgroup>
-<col width="22%" />
-<col width="12%" />
-<col width="31%" />
-<col width="32%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th align="right">baseline</th>
-<th align="right">iPhone X 64GB</th>
-<th align="right">Samsung S6 32GB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>initial cost</td>
-<td align="right">$350</td>
-<td align="right"><a href="https://www.apple.com/ca/shop/buy-iphone/iphone-x/5.8-inch-display-64gb-space-grey#00,11,20">Apple store</a> $1477.28</td>
-<td align="right"><a href="https://www.amazon.ca/Samsung-Galaxy-Unlocked-Smartphone-Packaging/dp/B00U8KSUIG/ref=sr_1_1?ie=UTF8&amp;qid=1506875261&amp;sr=8-1&amp;keywords=samsung+s6">Amazon.ca</a> $605.34</td>
-</tr>
-<tr class="even">
-<td>case</td>
-<td align="right">$6.71</td>
-<td align="right"><a href="https://www.amazon.ca/iPhone-Case-Spigen-Liquid-Crystal/dp/B074CMZJMN/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1506875584&amp;sr=1-4&amp;keywords=iphone+X+case">Amazon.ca</a> $16.80</td>
-<td align="right"><a href="https://www.amazon.ca/PandawellTM-Defender-Protective-Protector-piece-Mint/dp/B00VQJQ24W/ref=sr_1_3?s=electronics&amp;ie=UTF8&amp;qid=1506875317&amp;sr=1-3&amp;keywords=samsung+s6+case">Amazon.ca</a> $11.20</td>
-</tr>
-<tr class="odd">
-<td>screen protector</td>
-<td align="right">$38.84</td>
-<td align="right"><a href="https://www.amazon.ca/iPhone-Screen-Protector-JETech-Tempered/dp/B07515P7PT/ref=sr_1_1?s=electronics&amp;ie=UTF8&amp;qid=1506875513&amp;sr=1-1&amp;keywords=iphone+X+screen+protector">Amazon.ca</a> $12.32</td>
-<td align="right"><a href="https://www.amazon.ca/Leesentec-Protector-Technology-Resistant-Protection/dp/B00WFO2M9Q/ref=sr_1_1?s=electronics&amp;ie=UTF8&amp;qid=1506875399&amp;sr=1-1&amp;keywords=samsung+s6+screen+protector">Amazon.ca</a> $11.20</td>
-</tr>
-<tr class="even">
-<td>power button repair</td>
-<td align="right">$67.20</td>
-<td align="right"><a href="https://gomobilerepair.ca/device-repair/apple-devices/iphone/iphone-6s-repair/">GoMobile iPhone 6S</a> $78.40</td>
-<td align="right"><a href="https://gomobilerepair.ca/device-repair/samsung-phones/samsung-galaxy-s4/">GoMobile Samsung S4</a> $67.20</td>
-</tr>
-<tr class="odd">
-<td>total cost</td>
-<td align="right">$462.75</td>
-<td align="right">$1584.80</td>
-<td align="right">$694.94</td>
-</tr>
-</tbody>
-</table>
+|                     | baseline | iPhone X 64GB               | Samsung S6 32GB              |
+|---------------------|----------:|-----------------------------:|------------------------------:|
+| initial cost        | $350     |[Apple store](https://www.apple.com/ca/shop/buy-iphone/iphone-x/5.8-inch-display-64gb-space-grey#00,11,20) $1477.28       | [Amazon.ca](https://www.amazon.ca/Samsung-Galaxy-Unlocked-Smartphone-Packaging/dp/B00U8KSUIG/ref=sr_1_1?ie=UTF8&qid=1506875261&sr=8-1&keywords=samsung+s6) $605.34          |
+| case                | $6.71    |  [Amazon.ca](https://www.amazon.ca/iPhone-Case-Spigen-Liquid-Crystal/dp/B074CMZJMN/ref=sr_1_4?s=electronics&ie=UTF8&qid=1506875584&sr=1-4&keywords=iphone+X+case) $16.80         | [Amazon.ca](https://www.amazon.ca/PandawellTM-Defender-Protective-Protector-piece-Mint/dp/B00VQJQ24W/ref=sr_1_3?s=electronics&ie=UTF8&qid=1506875317&sr=1-3&keywords=samsung+s6+case) $11.20           |
+| screen protector    | $38.84   | [Amazon.ca](https://www.amazon.ca/iPhone-Screen-Protector-JETech-Tempered/dp/B07515P7PT/ref=sr_1_1?s=electronics&ie=UTF8&qid=1506875513&sr=1-1&keywords=iphone+X+screen+protector)  $12.32          | [Amazon.ca](https://www.amazon.ca/Leesentec-Protector-Technology-Resistant-Protection/dp/B00WFO2M9Q/ref=sr_1_1?s=electronics&ie=UTF8&qid=1506875399&sr=1-1&keywords=samsung+s6+screen+protector) $11.20           |
+| power button repair | $67.20   | [GoMobile iPhone 6S](https://gomobilerepair.ca/device-repair/apple-devices/iphone/iphone-6s-repair/) $78.40  | [GoMobile Samsung S4](https://gomobilerepair.ca/device-repair/samsung-phones/samsung-galaxy-s4/) $67.20  |
+| total cost          | $462.75  | $1584.80                            |  $694.94                            |
 
 **Analysis: Either choice will cost significantly more the my Nexus 5.**
 
