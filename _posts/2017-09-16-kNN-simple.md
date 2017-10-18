@@ -20,7 +20,7 @@ Peter Lin
 
 Imagine a case: In a parallel universe far far away, where Donald Trump is a philanthropist known for his mission to bring equality to the world by providing accessible higher education. In that universe, you are a data scientist working for the Trump University finance team.
 
-<img src="https://github.com/peter0083/peter0083.github.io/blob/master/_posts/blogpost_files/figure-markdown_github-ascii_identifiers/tom-cruise-minority-report.jpg" alt="minority report">
+<img src="../assets/img/blogpost_files/figure-markdown_github-ascii_identifiers/tom-cruise-minority-report.jpg" alt="minority report">
 
 
 
@@ -55,7 +55,7 @@ Now if you have a prospective student with `tuition_need= 8`and `unmet_need= 6`,
 
 The prospective student is shown as a **blue square**.
 
-<img src="../assets/img//blogpost_files/figure-markdown_github-ascii_identifiers/2016%2B2018%20data%20plotted-1.png">
+<img src="../assets/img/blogpost_files/figure-markdown_github-ascii_identifiers/2016%2B2018%20data%20plotted-1.png" alt="2016 data plotted">
 
 
 :shipit: What is your prediction?
@@ -68,7 +68,7 @@ What does the letter 'k' in k-Nearest Neighbours Algorithm mean? 'k' is the numb
 
 Let's try...
 
-<img src="../assets/img//blogpost_files/figure-markdown_github-ascii_identifiers/kNN%20in%20action-1.png">
+<img src="../assets/img/blogpost_files/figure-markdown_github-ascii_identifiers/kNN%20in%20action-1.png" alt="knn in action1">
 
 
 The neighbours near the point of interest will vote for a prediction. If you decide to look at the 3-nearest neighbours to the point of interest, you might get a prediction based on 8 possible voting patterns:
