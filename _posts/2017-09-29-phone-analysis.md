@@ -27,47 +27,13 @@ Before comparing both the iPhone X and Samsung S6, I would like to remind you ho
 
 ### :money\_with\_wings: How much did Nexus 5 cost us?
 
-<table>
-<colgroup>
-<col width="30%" />
-<col width="15%" />
-<col width="54%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th align="right">cost</th>
-<th>note</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>initial cost</td>
-<td align="right">$350.00</td>
-<td>purchased from Vincent, December 2014</td>
-</tr>
-<tr class="even">
-<td>case</td>
-<td align="right">$6.71</td>
-<td>eBay, December 2014</td>
-</tr>
-<tr class="odd">
-<td>screen protector</td>
-<td align="right">$38.84</td>
-<td>Invisible Shields - Richmond Centre, December 2014</td>
-</tr>
-<tr class="even">
-<td>power button repair</td>
-<td align="right">$67.20</td>
-<td>iRevive Mobile Inc., September 2016</td>
-</tr>
-<tr class="odd">
-<td>total cost</td>
-<td align="right">$462.75</td>
-<td>$395.55/33 months (since Dec 2014) + repair $67.20/12 months (since Sep 2016) = $17.59 per month</td>
-</tr>
-</tbody>
-</table>
+|                     | cost    | note                                 |
+|---------------------|---------:|--------------------------------------|
+| initial cost        | $350.00 | purchased from Vincent, December 2014              |
+| case                | $6.71   | eBay, December 2014                                 |
+| screen protector    | $38.84  | Invisible Shields - Richmond Centre, December 2014  |
+| power button repair | $67.20  | iRevive Mobile Inc., September 2016                 |
+| total cost          | $462.75 | $395.55/33 months (since Dec 2014) + repair $67.20/12 months (since Sep 2016) = $17.59 per month |
 
 *I have owned the Nexus 5 for 33 months since December 2014.* *The repair was performed in September 2016 and that was 12 months ago.*
 
@@ -207,7 +173,8 @@ ggplot(upgrade_frequency_data_transposed, aes(x=frequency,
   ylab("value in %")
 ```
 
-![](report_files/figure-markdown_github-ascii_identifiers/upgrade%20frequency%20graph-1.png)
+
+![](report_files/figure-markdown_github-ascii_identifiers/upgrade_frequency_graph-1.png)
 
 **Analysis: Although our experience tells us that iPhones may last a bit longer, iPhone users tend to upgrade more often than Android users. Many users report the slowing down of their old iphones after updating iOS prior to new model launch date. (6) The way we use our phones is closer to the group of using the phone until it dies. We can interpret our experience and upgrade frequency in two ways.**
 
