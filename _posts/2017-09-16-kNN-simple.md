@@ -20,7 +20,8 @@ Peter Lin
 
 Imagine a case: In a parallel universe far far away, where Donald Trump is a philanthropist known for his mission to bring equality to the world by providing accessible higher education. In that universe, you are a data scientist working for the Trump University finance team.
 
-![future_data_scientist](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/blogpost_files/figure-markdown_github-ascii_identifiers/tom-cruise-minority-report.jpg)
+<img src="https://github.com/peter0083/peter0083.github.io/blob/master/_posts/blogpost_files/figure-markdown_github-ascii_identifiers/tom-cruise-minority-report.jpg">"
+
 
 
 Image courtesy of `DenofGeek.com`.
@@ -44,7 +45,7 @@ As a data scientist, your first step is to visualize the task given.
 
 First, you can draw a graph.
 
-![](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/blogpost_files/figure-markdown_github-ascii_identifiers/2016%20graph-1.png)
+<img src="https://github.com/peter0083/peter0083.github.io/blob/master/_posts/blogpost_files/figure-markdown_github-ascii_identifiers/2016%20graph-1.png">
 
 Each 2016 student is a data point. We can plot the 100 student data on a graph.
 
@@ -54,7 +55,7 @@ Now if you have a prospective student with `tuition_need= 8`and `unmet_need= 6`,
 
 The prospective student is shown as a **blue square**.
 
-![](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/blogpost_files/figure-markdown_github-ascii_identifiers/2016%2B2018%20data%20plotted-1.png)
+<img src="https://github.com/peter0083/peter0083.github.io/blob/master/_posts/blogpost_files/figure-markdown_github-ascii_identifiers/2016%2B2018%20data%20plotted-1.png">
 
 
 :shipit: What is your prediction?
@@ -67,7 +68,7 @@ What does the letter 'k' in k-Nearest Neighbours Algorithm mean? 'k' is the numb
 
 Let's try...
 
-![](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/blogpost_files/figure-markdown_github-ascii_identifiers/kNN%20in%20action-1.png)
+<img src="https://github.com/peter0083/peter0083.github.io/blob/master/_posts/blogpost_files/figure-markdown_github-ascii_identifiers/kNN%20in%20action-1.png">
 
 
 The neighbours near the point of interest will vote for a prediction. If you decide to look at the 3-nearest neighbours to the point of interest, you might get a prediction based on 8 possible voting patterns:
