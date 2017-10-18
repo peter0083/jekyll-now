@@ -31,7 +31,7 @@ Before comparing both the iPhone X and Samsung S6, I would like to remind you ho
 ### :money\_with\_wings: How much did Nexus 5 cost us?
 
 |                     | cost    | note                                 |
-|---------------------|---------:|--------------------------------------|
+|:---------------------|---------:|--------------------------------------:|
 | initial cost        | $350.00 | purchased from Vincent, December 2014              |
 | case                | $6.71   | eBay, December 2014                                 |
 | screen protector    | $38.84  | Invisible Shields - Richmond Centre, December 2014  |
