@@ -1,17 +1,13 @@
 ---
 layout: post
-title:  "A R Visualization Exercise - Shiny App Edition3"
-date:   2017-04-16
-excerpt: "US College Data Visualization using R Shiny"
-project: true
+title:  "Is it time to buy the iPhone X? A Simple Analysis"
+date:   2017-09-29
+excerpt: "To buy or not to buy: that is the question!"
+project: false
 tag:
 - R
 - viz
-- ggplot2
-- ggvis
-- plotly
-- RStudio
-- Shiny
+- personal finance
 comments: true
 ---
 
