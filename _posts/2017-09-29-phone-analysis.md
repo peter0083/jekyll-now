@@ -30,6 +30,7 @@ Before comparing both the iPhone X and Samsung S6, I would like to remind you ho
 
 ### :money\_with\_wings: How much did Nexus 5 cost us?
 
+
 |                     | cost    | note                                 |
 |:---------------------|---------:|--------------------------------------:|
 | initial cost        | $350.00 | purchased from Vincent, December 2014              |
@@ -37,6 +38,7 @@ Before comparing both the iPhone X and Samsung S6, I would like to remind you ho
 | screen protector    | $38.84  | Invisible Shields - Richmond Centre, December 2014  |
 | power button repair | $67.20  | iRevive Mobile Inc., September 2016                 |
 | total cost          | $462.75 | $395.55/33 months (since Dec 2014) + repair $67.20/12 months (since Sep 2016) = $17.59 per month |
+
 
 *I have owned the Nexus 5 for 33 months since December 2014.* *The repair was performed in September 2016 and that was 12 months ago.*
 
@@ -48,11 +50,13 @@ After knowing our baseline cost, we can now compare iPhone X with Samsung S6.
 
 I did some research on iPhone and Android user experience. Since iPhone X is not yet released, I have to assume that the latest iPhone, iPhone 7 Plus, is comparable to iPhone X. I also assume those who are satisfied with iPhone 7 Plus would give iPhone X a positive rating. My findings are shown in the table below (3, 4):
 
+
 |                          | iPhone 7 Plus 32GB         | Samsung S6 32GB          |
 |--------------------------|----------------------------|--------------------------|
 | Amazon.com User Rating   | 4.0/5 starts (553 reviews) | 3.4/5stars (153 reviews) |
 | PhoneArena User Rating   | 9.1/10 (10 reviews)        | 9.0/10 (58 reviews)      |
 | PhoneArena Critic Rating | 9.3/10                     | 9.3/10                   |
+
 
 **Analysis: The reviews are biased and they have questionable accountability.**
 
@@ -62,6 +66,7 @@ I did some research on iPhone and Android user experience. Since iPhone X is not
 
 The Consumer Technology Association publication states that the average lifespan of smartphones is approximately 4.7 years. (5) How does this information compare to our own experience?
 
+
 |                 | lifespan (years) | status                                                  |
 |-----------------|:-------------------:|---------------------------------------------------------|
 | benchmark       | 4.7               | --                                                      |
@@ -70,9 +75,11 @@ The Consumer Technology Association publication states that the average lifespan
 | Your HTC One M7 | 3.83              | still functional now but back camera produces purple-tinted pictures  |                             |
 | Dad's iPhone 3GS | 3.75              | unfunctional: battery expanded and popped the backplate off   |                             |
 
+
 Even though the average lifespan of smartphones is 4.7 years, we have had varied lifespan with each model we owned.
 
 Furthermore, some people actually upgrade their phones even before the phones become nonfunctional. How often do iPhone or Android users upgrade their phones? The findings are summarized in the graph below: (5)
+
 
 |                                                                        | iPhone | Android | Other |
 |------------------------------------------------------------------------|--------:|---------:|-------:|
@@ -137,6 +144,8 @@ Since my data sources cannot help us make an informed decision about the purchas
 
 *All prices include taxes and shipping*
 
+
+
 |                     | baseline | iPhone X 64GB               | Samsung S6 32GB              |
 |---------------------|----------:|-----------------------------:|------------------------------:|
 | initial cost        | $350     |[Apple store](https://www.apple.com/ca/shop/buy-iphone/iphone-x/5.8-inch-display-64gb-space-grey#00,11,20) $1477.28       | [Amazon.ca](https://www.amazon.ca/Samsung-Galaxy-Unlocked-Smartphone-Packaging/dp/B00U8KSUIG/ref=sr_1_1?ie=UTF8&qid=1506875261&sr=8-1&keywords=samsung+s6) $605.34          |
@@ -144,6 +153,8 @@ Since my data sources cannot help us make an informed decision about the purchas
 | screen protector    | $38.84   | [Amazon.ca](https://www.amazon.ca/iPhone-Screen-Protector-JETech-Tempered/dp/B07515P7PT/ref=sr_1_1?s=electronics&ie=UTF8&qid=1506875513&sr=1-1&keywords=iphone+X+screen+protector)  $12.32          | [Amazon.ca](https://www.amazon.ca/Leesentec-Protector-Technology-Resistant-Protection/dp/B00WFO2M9Q/ref=sr_1_1?s=electronics&ie=UTF8&qid=1506875399&sr=1-1&keywords=samsung+s6+screen+protector) $11.20           |
 | power button repair | $67.20   | [GoMobile iPhone 6S](https://gomobilerepair.ca/device-repair/apple-devices/iphone/iphone-6s-repair/) $78.40  | [GoMobile Samsung S4](https://gomobilerepair.ca/device-repair/samsung-phones/samsung-galaxy-s4/) $67.20  |
 | total cost          | $462.75  | $1584.80                            |  $694.94                            |
+
+
 
 **Analysis: Either choice will cost significantly more the my Nexus 5.**
 
