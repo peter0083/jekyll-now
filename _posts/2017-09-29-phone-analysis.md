@@ -3,7 +3,6 @@ layout: post
 title:  "Is it time to buy the iPhone X? A Simple Analysis"
 date:   2017-09-29
 excerpt: "To buy or not to buy: that is the question!"
-project: false
 tag:
 - R
 - viz
