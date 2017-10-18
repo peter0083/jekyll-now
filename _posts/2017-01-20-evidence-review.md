@@ -28,7 +28,7 @@ In UBC MDS program, we have yet to cover data modelling and inference for random
 
 Here is a music parody made by a UBC pharmacy professor, *Dr. James McCormack*, that summed up what I will discuss in an artistic way.
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/QUW0Q8tXVUc/0.jpg)](https://www.youtube.com/watch?v=QUW0Q8tXVUc&feature=youtu.be "Viva La Evidence")
+[!IMAGE ALT TEXT](http://img.youtube.com/vi/QUW0Q8tXVUc/0.jpg)](https://www.youtube.com/watch?v=QUW0Q8tXVUc&feature=youtu.be "Viva La Evidence")
 
 Different questions and research topics will have slightly different ranking for evidence and data. (1) I will focus on the evidence for therapy because I have more training in this category.
 
