@@ -11,8 +11,7 @@ comments: true
 ---
 
 
-<img src="https://github.com/peter0083/peter0083.github.io/blob/master/_posts/report_files/nedstark.JPG">
-
+![iPhone X is coming](https://github.com/peter0083/peter0083.github.io/blob/master/report-files/nedstark.JPG "Ned Stark")
 
 
 ================
