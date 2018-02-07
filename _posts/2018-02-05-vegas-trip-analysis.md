@@ -278,7 +278,7 @@ training_dataframe.groupby("Hotel name").sum().plot.bar(y="Nr. hotel reviews")
 
 
 
-![png](vegas_trip_analysis_files/vegas_trip_analysis_11_1.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas_trip_analysis_11_1.png)
 
 
 
@@ -294,7 +294,7 @@ training_dataframe.groupby("Hotel name").sum().plot.bar(y="Score")
 
 
 
-![png](vegas_trip_analysis_files/vegas_trip_analysis_12_1.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas_trip_analysis_12_1.png)
 
 
 > Looking at the sum of hotel reviews, I realize that there is a big gap between the highest-rated hotel and the lowest. Looking at the sum of scores however, the gap is not very wide. "Trump International Hotel Las Vegas" seems to be the best rated hotel.
@@ -306,7 +306,7 @@ plt.show()
 ```
 
 
-![png](vegas_trip_analysis_files/vegas_trip_analysis_14_0.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas_trip_analysis_14_0.png)
 
 
 > Most hotels seem to be in the 5.0 range.
@@ -385,7 +385,7 @@ plt.show()
 ```
 
 
-![png](vegas_trip_analysis_files/vegas_trip_analysis_20_0.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas_trip_analysis_20_0.png)
 
 
 > Reviews of "Marriott's Grand Chateau" received the most helpful votes.
@@ -397,7 +397,7 @@ plt.show()
 ```
 
 
-![png](vegas_trip_analysis_files/vegas_trip_analysis_22_0.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas_trip_analysis_22_0.png)
 
 
 > Reviews submitted by US, UK, Canadian, and Australian customers received the most helpful votes.
@@ -610,7 +610,7 @@ plt.legend(["Training","Validation"])
 
 
 
-![png](vegas_trip_analysis_files/vegas_trip_analysis_34_1.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas_trip_analysis_34_1.png)
 
 
 > kNN classifiers gives a very high accuracy at any number of neighbour given.
@@ -661,7 +661,7 @@ plt.legend(["Training","Validation"])
 
 
 
-![png](vegas_trip_analysis_files/vegas_trip_analysis_38_1.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas_trip_analysis_38_1.png)
 
 
 > Naive Bayes does not seem to give a better result than kNN. I will keep kNN as my baseline.
@@ -805,7 +805,7 @@ plt.show()
 ```
 
 
-![png](vegas_trip_analysis_files/vegas_trip_analysis_46_0.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas_trip_analysis_46_0.png)
 
 
 
@@ -881,7 +881,7 @@ plt.show()
 ```
 
 
-![png](vegas_trip_analysis_files/vegas_trip_analysis_51_0.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas_trip_analysis_51_0.png)
 
 
 **Feature importance ranking**
