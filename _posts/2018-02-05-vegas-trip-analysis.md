@@ -12,6 +12,9 @@ project: true
 ---
 
 
+![las_vegas_banner](2018-02-05-vegas-trip-analysis-files/vegas-sign.jpg)
+
+
 I would recommend reading this blog post in my github repo [las_vegas_hotel_reviews](https://github.com/peter0083/las_vegas_hotel_reviews)
 
 ```python
@@ -199,7 +202,7 @@ training_dataframe.groupby("Hotel name").sum().plot.bar(y="Score")
 
 
 
-![png](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-12-1.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-12-1.png)
 
 
 > Looking at the sum of hotel reviews, I realize that there is a big gap between the highest-rated hotel and the lowest. Looking at the sum of scores however, the gap is not very wide. "Trump International Hotel Las Vegas" seems to be the best rated hotel.
@@ -211,7 +214,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-14-0.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-14-0.png)
 
 
 > Most hotels seem to be in the 5.0 range.
