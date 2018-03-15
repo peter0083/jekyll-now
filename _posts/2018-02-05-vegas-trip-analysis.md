@@ -12,7 +12,7 @@ project: true
 ---
 
 
-<img src = "../_posts/2018-02-05-vegas-trip-analysis-files/vegas-sign.jpg" alt="las vegas sign">
+<img src = "../assets/img/2018-02-05-vegas-trip-analysis-files/vegas-sign.jpg" alt="las vegas sign">
 
 
 I would recommend reading this blog post in my github repo [las_vegas_hotel_reviews](https://github.com/peter0083/las_vegas_hotel_reviews)
@@ -185,7 +185,7 @@ training_dataframe.groupby("Hotel name").sum().plot.bar(y="Nr. hotel reviews")
 
 
 
-<img src = "../_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-11-1.png" alt="11-1 graph">
+<img src = "../assets/img/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-11-1.png" alt="11-1 graph">
 
 
 
@@ -200,7 +200,7 @@ training_dataframe.groupby("Hotel name").sum().plot.bar(y="Score")
 
 
 
-<img src = "../_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-12-1.png" alt="12-1 graph">
+<img src = "../assets/img/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-12-1.png" alt="12-1 graph">
 
 
 > Looking at the sum of hotel reviews, I realize that there is a big gap between the highest-rated hotel and the lowest. Looking at the sum of scores however, the gap is not very wide. "Trump International Hotel Las Vegas" seems to be the best rated hotel.
@@ -211,7 +211,7 @@ training_dataframe.plot.hist(y="Score", bins=30, normed=True)
 plt.show()
 ```
 
-<img src = "../_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-14-0.png" alt="14-0 graph">
+<img src = "../assets/img/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-14-0.png" alt="14-0 graph">
 
 
 > Most hotels seem to be in the 5.0 range.
@@ -289,7 +289,7 @@ training_dataframe.groupby("Hotel name").sum().plot.bar(y="Helpful votes")
 plt.show()
 ```
 
-<img src = "../_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-20-0.png" alt="20-0 graph">
+<img src = "../assets/img/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-20-0.png" alt="20-0 graph">
 
 
 > Reviews of "Marriott's Grand Chateau" received the most helpful votes.
@@ -300,7 +300,7 @@ training_dataframe.groupby("User country").sum().plot.bar(y="Helpful votes")
 plt.show()
 ```
 
-<img src = "../_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-22-0.png" alt="22-0 graph">
+<img src = "../assets/img/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-22-0.png" alt="22-0 graph">
 
 
 > Reviews submitted by US, UK, Canadian, and Australian customers received the most helpful votes.
@@ -413,7 +413,7 @@ plt.legend(["Training","Validation"])
 
 
 
-<img src = "../_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-34-1.png" alt="34-1 graph">
+<img src = "../assets/img/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-34-1.png" alt="34-1 graph">
 
 
 > kNN classifiers gives a very high accuracy at any number of neighbour given.
@@ -463,7 +463,7 @@ plt.legend(["Training","Validation"])
 
 
 
-<img src = "../_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-38-1.png" alt="38-1 graph">
+<img src = "../assets/img/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-38-1.png" alt="38-1 graph">
 
 
 > Naive Bayes does not seem to give a better result than kNN. I will keep kNN as my baseline.
@@ -582,7 +582,7 @@ plt.xlim([-1, 15])
 plt.show()
 ```
 
-<img src = "../_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-46-0.png" alt="46-0 graph">
+<img src = "../assets/img/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-46-0.png" alt="46-0 graph">
 
 
 
@@ -657,7 +657,7 @@ plt.xlim([-1, 15])
 plt.show()
 ```
 
-<img src = "../_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-51-0.png" alt="51-0 graph">
+<img src = "../assets/img/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-51-0.png" alt="51-0 graph">
 
 
 **Feature importance ranking**
