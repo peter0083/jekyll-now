@@ -1,4 +1,4 @@
-vegas-trip-analysis-51-0vegas-trip-analysis-46-0vegas-trip-analysis-38-1vegas-trip-analysis-34-1vegas-trip-analysis-22----
+---
 layout: post
 title:  "Las Vegas Hotel Reviews Analysis "
 date:   2018-02-05
@@ -12,6 +12,7 @@ project: true
 ---
 
 
+I would recommend reading this blog post in my github repo [las_vegas_hotel_reviews](https://github.com/peter0083/las_vegas_hotel_reviews)
 
 ```python
 import sys
@@ -47,8 +48,6 @@ from hyperopt import tpe
 # https://stackoverflow.com/questions/32400867/pandas-read-csv-from-url
 ```
 
-    WARN: OMP_NUM_THREADS=None =>
-    ... If you are using openblas if you are using openblas set OMP_NUM_THREADS=1 or risk subprocess calls hanging indefinitely
 
 
 ### Table of Content
@@ -94,101 +93,7 @@ test_datafram = raw_dataframe[336:]
 training_dataframe.head(2)
 ```
 
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>User country</th>
-      <th>Nr. reviews</th>
-      <th>Nr. hotel reviews</th>
-      <th>Helpful votes</th>
-      <th>Score</th>
-      <th>Period of stay</th>
-      <th>Traveler type</th>
-      <th>Pool</th>
-      <th>Gym</th>
-      <th>Tennis court</th>
-      <th>Spa</th>
-      <th>Casino</th>
-      <th>Free internet</th>
-      <th>Hotel name</th>
-      <th>Hotel stars</th>
-      <th>Nr. rooms</th>
-      <th>User continent</th>
-      <th>Member years</th>
-      <th>Review month</th>
-      <th>Review weekday</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>429</th>
-      <td>Australia</td>
-      <td>43</td>
-      <td>38</td>
-      <td>29</td>
-      <td>5</td>
-      <td>Sep-Nov</td>
-      <td>Couples</td>
-      <td>YES</td>
-      <td>YES</td>
-      <td>NO</td>
-      <td>YES</td>
-      <td>YES</td>
-      <td>YES</td>
-      <td>The Venetian Las Vegas Hotel</td>
-      <td>5</td>
-      <td>4027</td>
-      <td>Oceania</td>
-      <td>4</td>
-      <td>November</td>
-      <td>Saturday</td>
-    </tr>
-    <tr>
-      <th>282</th>
-      <td>USA</td>
-      <td>12</td>
-      <td>5</td>
-      <td>1</td>
-      <td>5</td>
-      <td>Sep-Nov</td>
-      <td>Couples</td>
-      <td>YES</td>
-      <td>YES</td>
-      <td>NO</td>
-      <td>YES</td>
-      <td>YES</td>
-      <td>YES</td>
-      <td>Encore at wynn Las Vegas</td>
-      <td>5</td>
-      <td>2034</td>
-      <td>North America</td>
-      <td>5</td>
-      <td>October</td>
-      <td>Friday</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
+(too many columns :sad: )
 
 <a id="section1"></a>
 ### 3. Exploratory data analysis
@@ -278,7 +183,7 @@ training_dataframe.groupby("Hotel name").sum().plot.bar(y="Nr. hotel reviews")
 
 
 
-![png](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-11-1.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-11-1.png)
 
 
 
@@ -385,7 +290,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-20-0.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-20-0.png)
 
 
 > Reviews of "Marriott's Grand Chateau" received the most helpful votes.
@@ -397,7 +302,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-22-0.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-22-0.png)
 
 
 > Reviews submitted by US, UK, Canadian, and Australian customers received the most helpful votes.
@@ -420,105 +325,6 @@ raw_dataframe = pd.get_dummies(raw_dataframe)
 
 raw_dataframe.head(2)
 ```
-
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Nr. reviews</th>
-      <th>Nr. hotel reviews</th>
-      <th>Helpful votes</th>
-      <th>Score</th>
-      <th>Nr. rooms</th>
-      <th>Member years</th>
-      <th>User country_Australia</th>
-      <th>User country_Belgium</th>
-      <th>User country_Brazil</th>
-      <th>User country_Canada</th>
-      <th>...</th>
-      <th>Review month_November</th>
-      <th>Review month_October</th>
-      <th>Review month_September</th>
-      <th>Review weekday_Friday</th>
-      <th>Review weekday_Monday</th>
-      <th>Review weekday_Saturday</th>
-      <th>Review weekday_Sunday</th>
-      <th>Review weekday_Thursday</th>
-      <th>Review weekday_Tuesday</th>
-      <th>Review weekday_Wednesday</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>429</th>
-      <td>43</td>
-      <td>38</td>
-      <td>29</td>
-      <td>5</td>
-      <td>4027</td>
-      <td>4</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>282</th>
-      <td>12</td>
-      <td>5</td>
-      <td>1</td>
-      <td>5</td>
-      <td>2034</td>
-      <td>5</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-<p>2 rows × 126 columns</p>
-</div>
-
 
 
 
@@ -610,7 +416,7 @@ plt.legend(["Training","Validation"])
 
 
 
-![png](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-34-1.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-34-1.png)
 
 
 > kNN classifiers gives a very high accuracy at any number of neighbour given.
@@ -661,7 +467,7 @@ plt.legend(["Training","Validation"])
 
 
 
-![png](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-38-1.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-38-1.png)
 
 
 > Naive Bayes does not seem to give a better result than kNN. I will keep kNN as my baseline.
@@ -697,25 +503,6 @@ print( estimator.score( Xval, yval ) )
 print( estimator.best_model() )
 ```
 
-    /Users/peterlin/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py:429: DataConversionWarning: Data with input dtype int64 was converted to float64 by the normalize function.
-      warnings.warn(msg, _DataConversionWarning)
-    /Users/peterlin/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py:429: DataConversionWarning: Data with input dtype int64 was converted to float64 by the normalize function.
-      warnings.warn(msg, _DataConversionWarning)
-    /Users/peterlin/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py:429: DataConversionWarning: Data with input dtype int64 was converted to float64 by StandardScaler.
-      warnings.warn(msg, _DataConversionWarning)
-    /Users/peterlin/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py:429: DataConversionWarning: Data with input dtype int64 was converted to float64 by MinMaxScaler.
-      warnings.warn(msg, _DataConversionWarning)
-    /Users/peterlin/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py:429: DataConversionWarning: Data with input dtype int64 was converted to float64 by MinMaxScaler.
-      warnings.warn(msg, _DataConversionWarning)
-    /Users/peterlin/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py:429: DataConversionWarning: Data with input dtype int64 was converted to float64 by StandardScaler.
-      warnings.warn(msg, _DataConversionWarning)
-    /Users/peterlin/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py:429: DataConversionWarning: Data with input dtype int64 was converted to float64 by the normalize function.
-      warnings.warn(msg, _DataConversionWarning)
-    /Users/peterlin/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py:429: DataConversionWarning: Data with input dtype int64 was converted to float64 by StandardScaler.
-      warnings.warn(msg, _DataConversionWarning)
-    /Users/peterlin/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py:429: DataConversionWarning: Data with input dtype int64 was converted to float64 by the normalize function.
-      warnings.warn(msg, _DataConversionWarning)
-
 
     0.994047619048
     {'learner': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
@@ -725,11 +512,6 @@ print( estimator.best_model() )
                 n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
                 verbose=0, warm_start=False), 'ex_preprocs': (), 'preprocs': (Normalizer(copy=True, norm='l1'),)}
 
-
-    /Users/peterlin/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py:429: DataConversionWarning: Data with input dtype int64 was converted to float64 by the normalize function.
-      warnings.warn(msg, _DataConversionWarning)
-    /Users/peterlin/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py:429: DataConversionWarning: Data with input dtype int64 was converted to float64 by the normalize function.
-      warnings.warn(msg, _DataConversionWarning)
 
 
 
@@ -805,7 +587,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-46-0.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-46-0.png)
 
 
 
@@ -881,7 +663,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/peter0083/peter0083.github.io/blob/master/_posts/2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-51-0.png)
+![png](2018-02-05-vegas-trip-analysis-files/vegas-trip-analysis-51-0.png)
 
 
 **Feature importance ranking**
