@@ -2,7 +2,7 @@
 layout: post
 title:  "Las Vegas Hotel Reviews Analysis "
 date:   2018-02-05
-excerpt: "Feature Selection"
+excerpt: "A Taste of Feature Selection"
 tag:
 - machine learning
 - feature selection
