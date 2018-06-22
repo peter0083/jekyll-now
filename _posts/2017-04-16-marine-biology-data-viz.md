@@ -18,6 +18,7 @@ comments: true
 # marine_biology_shiny_app
 a visualization exercise using R Shiny app
 
+[Link to the R Shiny app here](https://peter0083.shinyapps.io/sealpath/)
 
 The seal datasets contain positional (GPS) and movement data of a seal during her 3-day trip to sea. The seal_gps.csv data contains the GPS coordinates (recorded whenever the seal surfaces), and the seal.csv contains motion and environmental data, collected at a set period during the journey.
 
